@@ -1,0 +1,20 @@
+PROGRAM:
+
+public class SwapNumbers {
+
+    public static void main(String[] args) {
+
+        float first = 6f, second = 9f;
+        float temporary = first;
+        first = second;
+        second = temporary;
+        System.out.println("--After swap--  ");
+        System.out.println("First number = " + first + ",");
+        System.out.println("Second number = " + second);
+    }
+}
+
+
+OUTPUT:
+--After swap--  
+First number = 9.0,Second number = 6.0
