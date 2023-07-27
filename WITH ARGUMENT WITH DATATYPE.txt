@@ -1,0 +1,15 @@
+class sum3{
+void dispaly(){
+int a,b,c;
+c=a+b;
+return c;
+system.out.println(n);
+}
+public staticvoid main(String[] args)
+{
+sum3 s=new sum3();
+int result;
+result=s.display(10,20);
+System.out.println(result);
+}
+}
