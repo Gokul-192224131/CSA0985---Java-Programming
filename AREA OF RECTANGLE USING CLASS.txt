@@ -1,0 +1,22 @@
+PROGRAM:
+
+import java.util.Scanner;
+import java.io.*;
+class rect
+{
+int l,b,rectangle;
+}
+class rec
+{
+public static void main(String[] args)
+{
+rect obj= new rect();
+Scanner input=new Scanner(System.in);
+System.out.println("enter a:");
+obj.l=input.nextInt();
+System.out.println("enter b:");
+obj.b=input.nextInt();
+obj.rectangle=obj.l*obj.b;
+System.out.println(obj.rectangle);
+}
+}
