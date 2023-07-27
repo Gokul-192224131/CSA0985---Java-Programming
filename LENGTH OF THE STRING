@@ -1,0 +1,15 @@
+PROGRAM:
+
+class Test {
+	public static void main(String[] args)
+	{
+		String str = "GOKUL";
+
+		System.out.println("The size of the String is "	+ str.length());
+	}
+}
+
+
+OUTPUT:
+
+The size of the String is 5
